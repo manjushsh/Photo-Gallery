@@ -1,0 +1,16 @@
+{
+  "name": "photo-gallery",
+  "version": "1.0.0",
+  "description": "Simple AngularJS app by Silver and Group :)",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Silver and Group",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.8.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0"
+  }
+}

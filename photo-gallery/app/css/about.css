@@ -1,0 +1,80 @@
+body
+{
+    text-align: center;
+}
+.topnav {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+.container{
+	margin-top: 55px;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 13px;
+	font-style: Verdana, Tahoma, sans-serif;
+}
+
+h2 {
+	margin-bottom: 20px;
+	color: #616572;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 26px;
+}
+input, textarea {
+	padding: 10px;
+	border: 1px solid #E5E5E5;
+	width: 200px;
+	color: #999999;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 15px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 15px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 15px;		
+}
+
+textarea {
+	/* width: 50%; */
+	height: 150px;
+	max-width: 400px;
+	line-height: 18px;
+	border-radius: 20px;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus
+input:active {
+	border-color: 1px solid #C9C9C9;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;	
+	outline: none;
+}
+
+.form label {
+	margin-left: 10px;
+	color: #999999;
+}
+.submit input {
+	width: 100px; 
+	height: 40px;
+	background-color: #0d47a1; 
+	color: #FFF;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;		
+}
+footer
+{
+    opacity: 1;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-family: Arial;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

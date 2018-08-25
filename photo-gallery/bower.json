@@ -1,0 +1,17 @@
+{
+  "name": "photo-gallery",
+  "description": "Simple AngularJS app by Silver and Group :)",
+  "main": "gulpfile.js",
+  "authors": [
+    "Silver and Group"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "app/bower_components",
+    "test",
+    "tests"
+  ]
+}

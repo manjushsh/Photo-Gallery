@@ -1,0 +1,71 @@
+body
+{
+    background-attachment: fixed;
+    color: white;
+}
+.container
+{
+    backdrop-filter: blur(3px);
+    /*box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2), 0px 6px 20px 0 rgba(0,0,0,0.19);  /*From W3 Schools :)*/
+    overflow: hidden;
+    padding:8px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:10%;
+    margin-right: 10%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius:20px;
+}
+
+.container input     /* applies css to input of container class */
+    { 
+        margin:5px;
+        width: auto;
+    }
+.loghead
+{
+    text-align: center;
+    font-family: Century Gothic, CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-size: 24px;
+}
+
+input, textarea {
+	padding: 8px;
+	border: 1px solid #E5E5E5;
+	color: #696464;		
+}
+input:hover, input:focus {
+	border-color: 1px solid #C9C9C9;
+	box-shadow: rgba(255, 255, 255, 0.4) 0px 0px 20px;
+	-moz-box-shadow: rgba(255, 255, 255, 0.4) 0px 0px 20px;
+    -webkit-box-shadow: rgba(255, 255, 255, 0.4) 0px 0px 20px;
+    outline: none;	
+}
+input[type=text], input[type=email], input[type=password]
+{
+    width: 200px;
+    border-radius: 20px;
+}
+input[type=submit]
+{
+    background-color: #0d47a1;
+    color: white;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.4) 0px 0px 20px;
+}
+
+footer
+{
+    opacity: 1;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-family: Arial;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
